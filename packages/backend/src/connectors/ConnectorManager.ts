@@ -3,7 +3,7 @@
  * Manages multiple bank connectors
  */
 
-import { BaseBankConnector } from './BaseBankConnector';
+import { BaseBankConnector } from './BaseConnector';
 import { MockBankConnector } from './MockBankConnector';
 import { ConnectorConfig, BankCredentials, SyncResult } from './types';
 
